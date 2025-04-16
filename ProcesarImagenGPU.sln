@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProcesarImagenGPU", "ProcesarImagenGPU.vcxproj", "{C19B73F8-4CB7-F397-F1A8-E093D89BE61B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Book\book.h = ..\Book\book.h
+		..\Librerias\stb_image.h = ..\Librerias\stb_image.h
+		..\Librerias\stb_image_write.h = ..\Librerias\stb_image_write.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19B73F8-4CB7-F397-F1A8-E093D89BE61B}.Debug|x64.ActiveCfg = Debug|x64
+		{C19B73F8-4CB7-F397-F1A8-E093D89BE61B}.Debug|x64.Build.0 = Debug|x64
+		{C19B73F8-4CB7-F397-F1A8-E093D89BE61B}.Release|x64.ActiveCfg = Release|x64
+		{C19B73F8-4CB7-F397-F1A8-E093D89BE61B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE0FB7CA-8C62-4720-BDC5-667D8EE9CEBE}
+	EndGlobalSection
+EndGlobal
